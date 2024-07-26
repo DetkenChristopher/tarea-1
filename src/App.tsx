@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { AreaCuadrado } from "./TypeScript/AreaCuadrado";
+import { ArregloParametro } from "./TypeScript/ArregloParametro";
+import { alumno } from './TypeScript/alumno';
+import { HookUseState } from './TypeScript/HookUseState';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+const app=()=>{
+  return(
+    <div>
+    <h1>Deber-1</h1>
+    <hr />
+    {/*<AreaCuadrado/>*/}
+    {/*<ArregloParametro/>*/}
+{/*<alumno/>*/}
+<HookUseState/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default app;
